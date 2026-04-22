@@ -57,7 +57,7 @@ export default function DiskControls(props: BoxProps) {
                         return marks[value].label
                     }}
                     getAriaValueText={valuetext}
-                    sx={{ width: "120px", marginTop: "-10px" }}
+                    sx={{ width: "125px", marginTop: "-10px" }}
                     data-testid={"slider"}
                     step={1}
                     min={0}
